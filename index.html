@@ -1,0 +1,313 @@
+                <!--
+                    #####################################################################
+                                        PROJECT FOR PRAYER TIME 
+										   dataedge limited
+                    ##################################################################### 
+                -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="refresh" content="1200">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
+        <!--for script file-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+
+        <title>Prayer Time</title>
+    </head>
+    <body style="background-color:#54d3fe;">
+        <div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <!-- Header part -->
+                <div class="row header-text" style="background-color: #54d3fe;">
+                    <marquee behavior="scroll" direction="left" scrollamount="10">নলুয়া  মিঞা বাড়ি  জামে  মসজিদ , নলুয়া, নোয়াখালী | <span style="font-size:38px;margin-left:20px"> Nolua Miah Bari Jame Masjid , Nolua , Noakhali.</span><span style="margin-left: 100px;" id="time_seheri"></span><span style="margin-left: 80px;" id="time_ifter"></span></marquee>
+                </div>
+                <!-- Body part -->
+                <div class="row screen-height text-center">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="border-top-left-radius: 60px;border-top-right-radius: 60px;background-color: #f2f2f2;">
+                        <div class="row mt-5" style="height: 180px;">
+                            <marquee behavior="scroll" direction="up" scrollamount="1" height="180" style="text-align: center;">
+                                <div>
+                                    <h6 style="font-size: 26px;"><b>মসজিদে প্রবেশের দো‘আ</b></h6>
+                                    <p style="font-size: 38px;color:black"> اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ</p>
+                                    <p style="font-size: 26px;">উচ্চারণ : আল্লা-হুম্মাফ্‌তাহ লী আবওয়া-বা রাহ্‌মাতিকা</p>
+                                    <p style="font-size: 26px;">অর্থ : হে আল্লাহ! আপনি আমার জন্য আপনার রহমতের দরজাসমূহ খুলে দিন।</p>
+                                </div>
+                                <br><br>
+                                <div>
+                                    <h6 style="font-size: 26px;"><b>মসজিদ থেকে বের হওয়ার দো‘আ</b></h6>
+                                    <p style="font-size: 38px;color:black">اَللّٰهمَّ اِنِّي اَسْٮَٔلُكَ مِنْ فَضْلِكِ</p>
+                                    <p style="font-size: 26px;">উচ্চারণ : আল্লাহুম্মা ইন্নী আসআলূকা মিন ফাযলিকা।</p>
+                                    <p style="font-size: 26px;">অর্থ : হে আল্লাহ আমি আপনার দয়া প্রার্থনা করি।</p>
+                                </div>
+                                
+                                <div id="sehri_iftar123" style="width: 60%;margin-left: 20%;">
+                                   
+                                </div>
+                               
+                            </marquee>
+                        </div>
+                        <div class="row">
+                          
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 date-set" style="padding: 3px 10px;background-color: #dfdfdf;">
+                                <h3 style="font-size: 28px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><span style="font-size: 25px;font-weight: 600;">আজ</span> / Today</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 date-set">
+                                <h3 style="font-size: 34px;" id="egn_date"></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 date-set">
+                                <h3 id="bn_tarikh"></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 date-set">
+                                <h3 id="arabic_date"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="background:#cfe2e8;border-top-left-radius: 60px;border-top-right-radius: 60px;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-9 col-sm-9 col-md-12 col-lg-12 col-xl-12 pt-clock-time">
+                                    <h1 class="text-danger"><b id="digital_clock"><span style="font-size: 24px;" class="meridium"></span></b></h1>
+                                </div>
+                                <div class="col-3 col-sm-3 col-md-12 col-lg-12 col-xl-12 text-white mt-2">
+                                    <h5 class="text-danger"><span id="day_bang" style="font-size: 25px;"></span><span style="font-size: 25px;"> / </span><span class="text-danger" style="font-size: 27px;" id="day_eng"></span></h5>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-success" >
+                                    <h5 class="mt-2" style="font-size: 26px;">পরবর্তী নামাজের সময়</h5>
+                                    <h5 class="mt-1"  style="font-size: 27px;">Next Prayer Time</h5>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-success">
+                                    <h1 style="font-size: 55px;"><b id="next_pray_time"> <span style="font-size: 22px;"></span></b></h1>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4">
+                                <marquee behavior="scroll" direction="left" scrollamount="3"><img src="images/phone-off.png" alt="" style="width: 80px;height: 80px;border-radius: 40px;margin-top:-12px"><span style="font-size: 28px;" class="text-danger">আপনার মোবাইল ফোন বন্ধ রাখুন ।</span>
+								<img src="images/mask.png" alt="" style="width: 80px;height: 80px;border-radius: 40px;margin-top:-12px;margin-left:30px"><span style="font-size: 28px;margin-left:10px" class="text-danger">মাস্ক করোনা  সংক্রমণ থেকে রক্ষা করে ।</span></marquee>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="border-top-left-radius: 60px;border-top-right-radius: 60px;background-color: #f2f2f2;">
+                        <div class="row mt-3">
+                            <div class="col-lg-12 col-xl-12" style="color:black">
+                                <h4>নামাজের সময়সূচি</h4>
+                                <h4>Schedule Of Prayers</h4>
+                            </div>
+                        </div>
+                        <div class="row" id="fajor_row">
+                            <div class="col-lg-3 col-xl-3 pt-oakto">
+                                <h2 style="font-size: 33px;margin-top: 8px;">Fajr</h2>
+                            </div>
+                            <div class="col-lg-5 col-xl-5 pt-oakto" id="get_btn">
+                                <div class="row" style="margin-left:-1px;">
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="fazorHourInc(1)" class="time-inc-fazor-btn">+</button>
+                                        <button onclick="fazorHourDec(1)" class="time-inc-fazor-btn">-</button>
+                                    </div>
+                                    <div class="col-lg-8 col-xl-8">
+                                        <input style="height: 60px;font-size: 38px;font-weight:600;width: 100%;text-align: center;padding: 1px 0px;" type="text" class="form-control" name="fazor" id="fazor" readonly>
+                                    </div>
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="fazorMinutInc(1)" class="time-inc-fazor-btns2">+</button>
+                                        <button onclick="fazorMinutDec(1)" class="time-inc-fazor-btns2">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 pt-oakto">
+                                <h2 style="font-size: 30px;margin-top: 13px;">ফজর</h2>
+                            </div>
+                        </div>
+                        <div class="row" id="johr_row">
+                            <div class="col-lg-3 col-xl-3 pt-oakto">
+                                <h2 style="font-size: 33px;margin-top: 8px;">Dhuhr</h2>
+                            </div>
+                            <div class="col-lg-5 col-xl-5 pt-oakto" id="get_btn_johr">
+                                <div class="row" style="margin-left:-1px;">
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="johrHourInc(1)" class="time-inc-johr-btn">+</button>
+                                        <button onclick="johrHourDec(1)" class="time-inc-johr-btn">-</button>
+                                    </div>
+                                    <div class="col-lg-8 col-xl-8">
+                                        <input style="height: 60px;font-size: 38px;font-weight:600;width: 100%;text-align: center;padding: 1px 0px;" type="text" class="form-control" name="johr_show" id="johr_show" readonly>
+                                        <input type="hidden" class="form-control" name="johr" id="johr" readonly>
+                                    </div>
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="johrMinutInc(5)" class="time-inc-johr-btns2">+</button>
+                                        <button onclick="johrMinutDec(5)" class="time-inc-johr-btns2">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 pt-oakto">
+                                <h2 style="font-size: 30px;margin-top: 13px;">যোহর</h2>
+                            </div>
+                        </div>
+                        <div class="row" id="asr_row">
+                            <div class="col-lg-3 col-xl-3 pt-oakto">
+                                <h2 style="font-size: 33px;margin-top: 8px;">Asr</h2>
+                            </div>
+                            <div class="col-lg-5 col-xl-5 pt-oakto" id="get_btn_asr">
+                                <div class="row" style="margin-left:-1px;">
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="asrHourInc(1)" class="time-inc-asr-btn">+</button>
+                                        <button onclick="asrHourDec(1)" class="time-inc-asr-btn">-</button>
+                                    </div>
+                                    <div class="col-lg-8 col-xl-8">
+                                        <input style="height: 60px;font-size: 38px;font-weight:600;width: 100%;text-align: center;padding: 1px 0px;" type="text" class="form-control" name="asr_show" id="asr_show" readonly>
+                                        <input type="hidden" class="form-control" name="asr" id="asr" readonly>
+                                    </div>
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="asrMinutInc(5)" class="time-inc-asr-btns2">+</button>
+                                        <button onclick="asrMinutDec(5)" class="time-inc-asr-btns2">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 pt-oakto">
+                                <h2 style="font-size: 30px;margin-top: 13px;">আসর</h2>
+                            </div>
+                        </div>
+                        <div class="row" id="magrib_row">
+                            <div class="col-lg-3 col-xl-3 pt-oakto">
+                                <h2 style="font-size: 29px;margin-top: 8px;">Maghrib</h2>
+                            </div>
+                            <div class="col-lg-5 col-xl-5 pt-oakto" id="get_btn_magrib">
+                                <div class="row" style="margin-left:-1px;">
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="magribHourInc(1)" class="time-inc-magrib-btn">+</button>
+                                        <button onclick="magribHourDec(1)" class="time-inc-magrib-btn">-</button>
+                                    </div>
+                                    <div class="col-lg-8 col-xl-8">
+                                        <input style="height: 60px;font-size: 38px;font-weight:600;width: 100%;text-align: center;padding: 1px 0px;" type="text" class="form-control" name="magrib_show" id="magrib_show" readonly>
+                                        <input type="hidden" class="form-control" name="magrib" id="magrib" readonly>
+                                    </div>
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="magribMinutInc(1)" class="time-inc-magrib-btns2">+</button>
+                                        <button onclick="magribMinutDec(1)" class="time-inc-magrib-btns2">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 pt-oakto">
+                                <h2 style="font-size: 29px;margin-top: 13px;">মাগরিব</h2>
+                            </div>
+                        </div>
+                        <div class="row" id="esha_row">
+                            <div class="col-lg-3 col-xl-3 pt-oakto">
+                                <h2 style="font-size: 33px;margin-top: 8px;">Isha</h2>
+                            </div>
+                            <div class="col-lg-5 col-xl-5 pt-oakto" id="get_btn_esha">
+                                <div class="row" style="margin-left:-1px;">
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="eshaHourInc(1)" class="time-inc-esha-btn">+</button>
+                                        <button onclick="eshaHourDec(1)" class="time-inc-esha-btn">-</button>
+                                    </div>
+                                    <div class="col-lg-8 col-xl-8">
+                                        <input style="height: 60px;font-size: 38px;font-weight:600;width: 100%;text-align: center;padding: 1px 0px;" type="text" class="form-control" name="esha_show" id="esha_show" readonly>
+                                        <input type="hidden" class="form-control" name="esha" id="esha" readonly>
+                                    </div>
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="eshaMinutInc(5)" class="time-inc-esha-btns2">+</button>
+                                        <button onclick="eshaMinutDec(5)" class="time-inc-esha-btns2">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 pt-oakto">
+                                <h2 style="font-size: 30px;margin-top: 13px;">এশা</h2>
+                            </div>
+                        </div>
+                        <div class="row" style="padding:0px 0px">
+                            <div class="col-lg-3 col-xl-3 pt-oakto">
+                                <h2 style="font-size: 33px;margin-top: 8px;">Jumu'a</h2>
+                            </div>
+                            <div class="col-lg-5 col-xl-5 pt-oakto" id="get_btn_jumua">
+                                <div class="row" style="margin-left:-1px;">
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="jumuaHourInc(1)" class="time-inc-jumua-btn">+</button>
+                                        <button onclick="jumuaHourDec(1)" class="time-inc-jumua-btn">-</button>
+                                    </div>
+                                    <div class="col-lg-8 col-xl-8">
+                                        <input style="height: 60px;font-size: 38px;font-weight:600;width: 100%;text-align: center;padding: 1px 0px;" type="text" class="form-control" name="jumua_show" id="jumua_show" readonly>
+                                        <input type="hidden" class="form-control" name="jumua" id="jumua" readonly>
+                                    </div>
+                                    <div class="col-lg-1 col-xl-1">
+                                        <button onclick="jumuaMinutInc(5)" class="time-inc-jumua-btns2">+</button>
+                                        <button onclick="jumuaMinutDec(5)" class="time-inc-jumua-btns2">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 pt-oakto">
+                                <h2 style="font-size: 30px;margin-top: 13px;">জুম‘আ</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Footer part -->
+                 <div class="row">
+                     <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5" style="background-color: #54d3fe;"></div>
+                     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" style="background-color: #54d3fe;color:black">
+                        <marquee behavior="alternate" direction="" style="line-height: 37px;height: 32px;font-size: 23px;font-weight: 600;">হাদিস সমূহ</marquee>
+                     </div>
+                     <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5" style="background-color: #54d3fe;"></div>
+                   
+                 </div>
+                 <div class="row">
+                    <div class="col-9 col-sm-9 col-md-9 col-lg-12 col-xl-12" style="background-color:#f2f2f2;color:black"> 
+                        <div class="card-body">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> ‘আবদুল্লাহ ইবনু ‘আমর (রাঃ) হতে বর্ণিত। আল্লাহর রাসূল সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম ইরশাদ করেন, সে-ই মুসলিম, যার জিহবা ও হাত হতে সকল মুসলিম নিরাপদ এবং সে-ই প্রকৃত মুহাজির, আল্লাহ যা নিষেধ করেছেন তা যে ত্যাগ করে। (৬৪৮৪; মুসলিম ১/১৪ হাঃ ৪০, আহমাদ ৬৭৬৫)</p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> ‘আবদুল্লাহ্ ইবনু ‘আমর (রাঃ) হতে বর্ণিত। জনৈক ব্যক্তি আল্লাহর রাসূল সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম -কে জিজ্ঞেস করল, ইসলামের কোন্ জিনিসটি উত্তম? তিনি বললেন, তুমি খাদ্য খাওয়াবে ও চেনা অচেনা সকলকে সালাম দিবে। (২৮, ৬২৩৬; মুসলিম ১/১৪ হাঃ ৪২, আহমাদ ৬৭৬৫)</p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আনাস (রাযি.) হতে বর্ণিত। আল্লাহর রাসূল সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেনঃ তোমাদের কেউ প্রকৃত মু’মিন হতে পারবে না, যতক্ষণ না আমি তার নিকট তার পিতা, তার সন্তান ও সব মানুষের অপেক্ষা অধিক প্রিয়পাত্র হই। (মুসলিম ১/১৬ হাঃ ৪৪, আহমাদ ১২৮১৪)</p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আল্লাহ্ তা‘আলার বাণীঃ ‘‘তোমরা প্রত্যেক সালাতের সময় সুন্দর পরিচ্ছদ পরিধান করবে’’- (সূরাহ্ আরাফ ৭/৩১)।</p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আবূ হুরাইরাহ্ (রাঃ) হতে বর্ণিত। আল্লাহর রাসূল সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেনঃ যখন রমাযান আসে তখন জান্নাতের দরজাসমূহ উন্মুক্ত করে দেয়া হয়। (১৮৯৯, ৩২৭৭, মুসলিম ১৩/১, হাঃ ১০৭৯, আহমাদ ৮৬৯২)</p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আবূ সা’ঈদ আল খুদরী (রাঃ) থেকে বর্ণিতঃ রসূলুল্লাহ (সাল্লাল্লাহু ‘আলাইহি ওয়া সাল্লাম) বলেনঃ যখন তোমরা আযান শুনতে পাও তখন মুওয়ায্‌যিন যা বলে তোমরা তাই-ই বল। (ই. ফা. ৭৩২, ই. সে. ৭৪৭)</p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আয়িশাহ্‌ (রাঃ) থেকে বর্ণিতঃ তিনি বলেন, নাবী (সাল্লাল্লাহু ‘আলাইহি ওয়া সাল্লাম)কোন নফল সলাতকে ফাজরের দু’রাক’আত সুন্নাতের চেয়ে অধিক গুরুত্ব প্রদান করতেন না। (বুখারী পর্ব ১৯ :/২৭ হাঃ ১১৬৩, মুসলিম পর্ব ৬ :/১৪, হাঃ ৬২৪) </p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আবূ সা’ঈদ আল খুদরী (রাঃ) থেকে বর্ণিতঃ রসূলুল্লাহ (সাল্লাল্লাহু ‘আলাইহি ওয়া সাল্লাম) বলেনঃ যখন তোমরা আযান শুনতে পাও তখন মুওয়ায্‌যিন যা বলে তোমরা তাই-ই বল। (ই. ফা. ৭৩২, ই. সে. ৭৪৭) </p>
+                                </div>
+                                <div class="item">
+                                    <p style="font-size: 22px;text-align: justify;"> আনাস ইবনে মালিক (রা.) বলেন, রাসুলুল্লাহ (সা.) ইরশাদ করেছেন, যে ব্যক্তি ৪০ দিন পর্যন্ত প্রথম তাকবিরের সঙ্গে জামাতে নামাজ আদায় করবে, আল্লাহ তাআলা তাকে দুটি পুরস্কার দান করবেন। এক. জাহান্নাম থেকে মুক্তি দেবেন। দুই. মুনাফিকের তালিকা থেকে তার নাম কেটে দেবেন। (তিরমিজি, হাদিস : ২৪১) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--JavaScript file -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/banglaDateTime.js"></script>
+    </body>
+</html>

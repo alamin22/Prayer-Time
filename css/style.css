@@ -1,0 +1,170 @@
+
+/*start css code*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Avenir;
+    overflow: hidden;
+}
+.header-text{
+    height: 70px;
+    line-height: 70px;
+    font-size: 31px;
+    color: black;
+    font-weight: 600;
+}
+.screen-height{
+    height: 100%;
+}
+.sun-set{
+    border:1px solid rgb(55, 27, 105);
+    padding:12px 12px;
+    color:black;
+}
+.date-set{
+    border:1px solid #fff8f8;
+    padding:13px 12px;
+    color:black;
+}
+.pt-oakto{
+    border:1px solid #fff8f8;
+    padding:5px 0px;
+    color:black;
+}
+.pt-clock-time h1{
+    color:white;
+    font-size: 70px;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+button.time-inc-fazor-btn{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-fazor-btns2{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    margin-left:-27px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-johr-btn{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-johr-btns2{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    margin-left:-27px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-asr-btn{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-asr-btns2{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    margin-left:-27px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-magrib-btn{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-magrib-btns2{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    margin-left:-27px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-esha-btn{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-esha-btns2{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    margin-left:-27px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-jumua-btn{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
+button.time-inc-jumua-btns2{
+    background: #f2f2f2;
+    width:27px;
+    height: 24px;
+    text-align: center;
+    border: none;
+    margin-top: 4px;
+    margin-left:-27px;
+    color: #f2f2f2;
+    border-radius: 4px;
+}
